@@ -2,7 +2,10 @@ package com.example.holamundo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "OnCreate", Toast.LENGTH_SHORT).show();
         //La actividad está creada.
+    }
+    public void siguiente(View view){
+        Intent siguiente = new Intent(this, SegundaPantalla.class);
+        startActivity(siguiente);
     }
     @Override
     protected void onStart() {
@@ -44,5 +51,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "OnDestroy", Toast.LENGTH_SHORT).show();
         // La actividad está a punto de ser destruida.
     }
+
+
 
 }

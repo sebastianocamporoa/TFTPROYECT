@@ -14,11 +14,13 @@
         app:srcCompat="@drawable/image__2_" />
 
     <Button
+        android:id="@+id/btnSig"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:alpha="@dimen/material_emphasis_high_type"
         android:background="@color/gris"
         android:drawableBottom="@drawable/iniciar"
+        android:onClick="siguiente"
         android:paddingTop="10mm"
         android:text="INICIAR"
         android:textSize="14sp"></Button>
