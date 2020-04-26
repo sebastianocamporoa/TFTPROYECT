@@ -1,33 +1,22 @@
-<LinearLayout android:layout_width="match_parent"
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/cardview_dark_background">
+    android:background="@color/gris">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Bienvenido"
-        android:textSize="40dp"
-        android:textColor="@color/gris"
-        android:layout_margin="20dp"
-        android:padding="10dp">
-            </TextView>
-<EditText
-    android:layout_width="300dp"
-    android:layout_height="wrap_content"
-    android:hint="Ingrese su nombre"
-    android:hint
-    android:layout_margin="20dp">
-    
-</EditText>
+        app:srcCompat="@drawable/image__2_"
+        android:paddingTop="20mm"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Saludar"></Button>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@color/gris"
+        android:text="INICIAR"
+        android:textSize="7mm"
+        android:paddingTop="10mm"></Button>
 
 </LinearLayout>
