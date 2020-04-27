@@ -6,10 +6,9 @@
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="TFT Guide"
-        android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:>
+        >
         <activity android:name=".SegundaPantalla"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
